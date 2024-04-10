@@ -120,7 +120,7 @@ def make_readme(firmwares: Iterable[Mapping[str, Any]]) -> str:
             text += "Version | Date | Changes | Notes\n"
             text += "--- | --- | --- | ---\n"
             for pi in sorted(hvs[hv], key=sort_pak_info, reverse=True):
-                fws = [fw for fw in firmwares if fw["sha256_pak"] == pi["sha256"]]
+                fws = [fw for fw in firmwares if "sha256_pak" in fw and fw["sha256_pak"] == pi["sha256"]]
                 # If a firmware appears both in live and archivesv2, the live instance
                 # will appear first in the list and therefore be the one selected.
                 fw = fws[0] if fws else {}
@@ -438,7 +438,7 @@ async def update_live_info() -> list[list[dict[str, Any]]]:
     old_len = len(firmwares_old)  # The new firmwares will start at the end of the list.
     merge_lists(devices_old, devices_new)  # Hoping the titles don't change.
     merge_lists(firmwares_old, firmwares_new, "firmware_id")
-    pak_infos = await asyncio.gather(*[firmware_info(fw["url"]) for fw in firmwares_old[old_len:]])
+    pak_infos = await asyncio.gather(*[firmware_info(fw["url"]) for fw in firmwares_old[old_len:] if "sha256_pak" in fw])
     firmwares_old[old_len:] = add_and_clean(pak_infos, firmwares_old[old_len:], "live")
     with open(FILE_DEVICES, 'w', encoding="utf8") as f:
         json.dump(devices_old, f, indent=2)
