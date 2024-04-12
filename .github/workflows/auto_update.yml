@@ -49,10 +49,9 @@ jobs:
       contents: write
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3 # https://github.com/actions/checkout/issues/439
+        uses: actions/checkout@v4 # https://github.com/actions/checkout/issues/439
         with:
           fetch-depth: 0
-          ref: main
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -69,5 +68,5 @@ jobs:
           tag: ${{ env.UNIX_TS }}
           name: ${{ env.DATE }}
           bodyFile: body.md
-          commit: main
+          commit: github.ref_name
           makeLatest: true
