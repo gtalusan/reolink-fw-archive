@@ -538,22 +538,6 @@ Version | Date | Changes | Notes
 
 [Product page](https://reolink.com/product/e1-outdoor/)
 
-  ### IPC_523SD8
-
-Firmwares for this hardware version: 9
-
-Version | Date | Changes | Notes
---- | --- | --- | ---
-[v3.1.0.1643_23041100](https://support-d.reolink.com/attachments/token/OGUN4y1IYPT4H54LKgv4FrnPk/?name=IPC_523SD8.1643_23041100.E1-Outdoor.OV05A10.5MP.WIFI1021.PTZ.REOLINK.pak) | 2023‑04‑11 |  | 
-[v3.1.0.1643_22122400](https://support.reolink.com/attachments/token/earovP2n9ndB7vFrzTAbtAQsS/?name=IPC_523SD8.1643_22122400.E1-Outdoor.OV05A10.5MP.WIFI1021.PTZ.REOLINK.pak) | 2022‑12‑24 |  | [Source 1](https://github.com/AT0myks/reolink-fw-archive/discussions/5)
-[v3.1.0.1584_22120966](https://support-d.reolink.com/attachments/token/rngyK0yBtNIqpdAEaAuUDtfVr/?name=IPC_523SD8.1584_22120966.E1-Outdoor.OV05A10.5MP.WIFI1021.PTZ.REOLINK.pak) | 2022‑12‑09 |  | [Source 1](https://github.com/AT0myks/reolink-fw-archive/discussions/11)
-[v3.1.0.1348_220922660](https://drive.google.com/uc?id=12gn4NVw4v_DABQ8b_XKmQJ3tUFId2n7y&confirm=t) | 2022‑09‑22 |  | [Source 1](https://www.reddit.com/r/reolinkcam/comments/zhktis/comment/izoohjp)
-[v3.1.0.989_22071306](https://drive.google.com/uc?id=1iduVRpBXk2vw4L7V4cSASzkSbDl0upBX&confirm=t) | 2022‑07‑13 |  | [Source 1](https://www.reddit.com/r/reolinkcam/comments/zhktis/comment/izoohjp)
-[v3.1.0.956_22041506](https://drive.google.com/uc?id=1piUxktFScSkI622ThgOzKexD1UdgFPI4&confirm=t) | 2022‑04‑15 |  | :warning: The only available links for this firmware are hosted by users and not Reolink themselves<br />[Source 1](https://www.reddit.com/r/reolinkcam/comments/zhktis/comment/izoohjp)
-[v3.1.0.804_22012406](https://support-d.reolink.com/attachments/token/3FVDyr7FnfXKiHrbI3ihfGwzW/?name=IPC_523SD8.804_22012406.E1-Outdoor.OV05A10.5MP.WIFI1021.PTZ.REOLINK%28open_ai_trace%29.pak) | 2022‑01‑24 | Supports animal detection | [Source 1](https://github.com/AT0myks/reolink-fw-archive/discussions/16)
-[v3.1.0.804_22011506](https://support.reolink.com/attachments/token/7k5v4dY8P7nXXGfNynLxQNkOh/?name=IPC_523SD8.804_22011506.E1-Outdoor.OV05A10.5MP.WIFI1021.PTZ.REOLINK.pak) | 2022‑01‑15 |  | [Source 1](https://github.com/AT0myks/reolink-fw-archive/discussions/9)
-[v3.0.0.197_21022706](https://reolink-storage.s3.amazonaws.com/website/firmware/20210227firmware/E1-Outdoor.197_21022706..zip) | 2021‑02‑27 | <ol><li>Solved the problem that some APP versions are not compatible with the automatic tracking function and the spotlight function.</li><li>Optimized the auto tracking function.</li><li>Optimized the PTZ function.</li><li>Optimized Person and Vehicle Detection.</li></ol> | [Archive](https://web.archive.org/web/20210613000536/https://support.reolink.com/hc/en-us/articles/900005803523-27th-Feb-2021-Firmware-for-E1-Outdoor-IPC-523SD8-)
-
   ### IPC_566SD85MP
 
 Firmwares for this hardware version: 1
