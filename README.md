@@ -2098,27 +2098,6 @@ Version | Date | Changes | Notes
 </details>
 
 <details>
-  <summary>Reolink Lumus</summary>
-
-<img src="https://home-cdn.reolink.us/wp-content/assets/2020/01/reolink-lumus-340.png" width="150">
-
-[Product page](https://reolink.com/product/reolink-lumus/)
-
-  ### IPC_325C7
-
-Firmwares for this hardware version: 5
-
-Version | Date | Changes | Notes
---- | --- | --- | ---
-[v2.0.0.705_21052800](https://github.com/AT0myks/reolink-fw-archive/files/11149143/IPC_325C7.705_21052800.IMX307.2MP.WIFI7601.REOLINK.zip) | 2021‑05‑28 |  | :warning: The only available links for this firmware are hosted by users and not Reolink themselves<br />[Source 1](https://github.com/AT0myks/reolink-fw-archive/discussions/6)
-[v2.0.0.687_20102800](https://reolink-storage.s3.amazonaws.com/website/firmware/20201028firmware/Reolink+Lumus_687_20102800.zip) | 2020‑10‑28 | <ol><li>Added multiple languages for the voice prompt when scanning the QR code to set up the camera</li><li>Added Normal recording schedule</li><li>Optimized motion detection performance to reduce false alarms</li><li>Fixed some other bugs.</li></ol> | [Archive](https://web.archive.org/web/20210725025557/https://support.reolink.com/hc/en-us/articles/900002618206-10-28-2020-Firmware-for-Reolink-Lumus-IPC-325C7-)
-[v2.0.0.684_20091500](https://reolink-storage.s3.amazonaws.com/website/firmware/20200915firmware/Reolink-Lumus_684_20091500.zip) | 2020‑09‑15 | <ol><li>Added multiple languages for the voice prompt when scanning the QR code to set up the camera</li><li>Added Normal recording schedule</li><li>Optimized motion detection performance to reduce false alarms</li><li>Fixed some other bugs.</li></ol> | [Archive](https://web.archive.org/web/20201021192944/https://support.reolink.com/hc/en-us/articles/900002618206-09-15-2020-Firmware-for-Reolink-Lumus-IPC-325C7-)
-[v2.0.0.680_20082500](https://reolink-storage.s3.amazonaws.com/website/firmware/20200825firmware/Reolink-Lumus_680_20082500.zip) | 2020‑08‑25 | <ol><li>Added multiple languages for the voice prompt when scanning the QR code to set up the camera</li><li>Added Normal recording schedule</li><li>Optimized motion detection performance to reduce false alarms</li><li>Fixed some other bugs.</li></ol> | [Archive](https://web.archive.org/web/20200919133639/https://support.reolink.com/hc/en-us/articles/900002618206-08-25-2020-Firmware-for-Reolink-Lumus-IPC-325C7-)
-[v2.0.0.642_20030600](https://reolink-storage.s3.amazonaws.com/website/firmware/20200306firmware/Reolink+Lumus_642_20030600.zip) | 2020‑03‑06 | <ol><li>Optimized WiFi connection ability</li><li>Optimized the Day&amp;Night mode feature.</li><li>Lowered down the volume of the speaker when setting up the camera.</li><li>Fixed the bug of camera auto-reboot when sending the email alert.</li></ol> | [Archive](https://web.archive.org/web/20200804203639/https://support.reolink.com/hc/en-us/articles/900000312623-03-06-2020-Firmware-for-Reolink-Lumus-IPC-325C7-)
-
-</details>
-
-<details>
   <summary>Reolink TrackMix PoE</summary>
 
 <img src="https://home-cdn.reolink.us/wp-content/uploads/2022/06/280627521656397672.1918.png" width="150">
