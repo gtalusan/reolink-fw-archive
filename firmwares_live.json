@@ -3926,5 +3926,860 @@
     "display_time": "2024-03-01 00:00:00+08:00",
     "sha256_pak": "b87fb00eca26b2e5873036ba0ec7021d07af2d03ffb33bb6379bc2418fbb93c4",
     "source": "live"
+  },
+  {
+    "version": "v3.0.0.3308_2408051176",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/190847041724057224.7904.zip",
+    "filename": "Reolink_Video_Doorbell_PoE_W_v30033082408051176_DB_566128M5MP_P_W",
+    "updated_at": "2024-08-19 16:47:23+08:00",
+    "note": "",
+    "firmware_id": 663,
+    "hw_ver_id": 353,
+    "model_id": 213,
+    "model": "Reolink Video Doorbell PoE-W\uff08White POE\uff09",
+    "hw_ver": "DB_566128M5MP_P_W",
+    "changelog": [
+      "Add support for ONVIF audio-related commands.",
+      "Improve compatibility with Chime and Doorbell cameras.",
+      "Fix other known bugs"
+    ],
+    "display_time": "2024-08-19 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3308_2408051175",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/190848211724057301.9162.zip",
+    "filename": "Reolink_Video_Doorbell_WiFi_W_v30033082408051175_DB_566128M5MP_W_W",
+    "updated_at": "2024-08-19 16:48:42+08:00",
+    "note": "",
+    "firmware_id": 664,
+    "hw_ver_id": 352,
+    "model_id": 214,
+    "model": "Reolink Video Doorbell WiFi-W\uff08White WiFi\uff09",
+    "hw_ver": "DB_566128M5MP_W_W",
+    "changelog": [
+      "Add support for ONVIF audio-related commands.",
+      "Improve compatibility with Chime and Doorbell cameras.",
+      "Enhance wall penetration performance of 2.4GHz WiFi in certain scenarios.",
+      "Fix other known bugs"
+    ],
+    "display_time": "2024-08-19 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3909_2408064516",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/071205031723032303.9511.zip",
+    "filename": "CX810_3909_2408064516",
+    "updated_at": "2024-08-07 20:05:16+08:00",
+    "note": "",
+    "firmware_id": 657,
+    "hw_ver_id": 351,
+    "model_id": 212,
+    "model": "CX810",
+    "hw_ver": "IPC_NT2NA48MPB28",
+    "changelog": [
+      "1. Add audio noise reduction function",
+      "2. Add binning mode function",
+      "3. Optimize image effects",
+      "4. Solve other known BUGs"
+    ],
+    "display_time": "2024-08-07 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3633_2406134111",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/271003231722074603.6578.zip",
+    "filename": "RLC_843A_3633_2406134111",
+    "updated_at": "2024-07-27 18:04:07+08:00",
+    "note": "",
+    "firmware_id": 654,
+    "hw_ver_id": 350,
+    "model_id": 211,
+    "model": "RLC-843A",
+    "hw_ver": "IPC_NT2NA48MP",
+    "changelog": [
+      "1. Optimize the day and night switching effect",
+      "2. Solve other known bugs"
+    ],
+    "display_time": "2024-07-27 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3715_2406271290",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/170154381721181278.2936.zip",
+    "filename": "E1_Outdoor_CX_3715_2406271920",
+    "updated_at": "2024-07-17 09:54:57+08:00",
+    "note": "",
+    "firmware_id": 651,
+    "hw_ver_id": 349,
+    "model_id": 210,
+    "model": "E1 Outdoor CX",
+    "hw_ver": "IPC_MS1NA44MP",
+    "changelog": [
+      "1. Optimize night vision image effects.",
+      "2. Optimize tracking effects.",
+      "3. Solve some known bugs in live view and pre-record.",
+      "4. Optimize snapshot effects.",
+      "5. Solve other known bugs."
+    ],
+    "display_time": "2024-07-17 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3114_2407022284",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/041123151720092195.4364.zip",
+    "filename": "V800W_3114_2407022284",
+    "updated_at": "2024-07-04 19:27:24+08:00",
+    "note": "",
+    "firmware_id": 647,
+    "hw_ver_id": 348,
+    "model_id": 209,
+    "model": "V800W",
+    "hw_ver": "IPC_NT2NO28MP",
+    "changelog": [
+      "1. Resolve known bugs"
+    ],
+    "display_time": "2024-07-04 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3688_24081512_v1.0.0.146",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/161235191723811719.669.zip",
+    "filename": "RLC_823S1W_3688_24081512",
+    "updated_at": "2024-08-19 14:28:43+08:00",
+    "note": "",
+    "firmware_id": 643,
+    "hw_ver_id": 347,
+    "model_id": 208,
+    "model": "RLC-823S1W",
+    "hw_ver": "IPC_NT2NA48MPSD12",
+    "changelog": [
+      "1. Resolve hidden OSD time, adjust device name to middle-upper, and restore default settings to fix OSD time not displaying issue.",
+      "2. Regular users do not have permission to modify system configurations or change WiFi settings.",
+      "3. Address abnormality in clip function.",
+      "4. Default support for authenticated device private keys.",
+      "5. Resolve issue of encoding frame rate reduction.",
+      "6. Modify default image orientation.",
+      "7. Resolve ineffectiveness of anti-flicker settings.",
+      "8. Fix issue of plaintext password printing when adding users."
+    ],
+    "display_time": "2024-08-16 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3688_24081510_v1.0.0.146",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/161235531723811753.4232.zip",
+    "filename": "RLC_823S1_3688_24081510",
+    "updated_at": "2024-08-19 14:28:56+08:00",
+    "note": "",
+    "firmware_id": 642,
+    "hw_ver_id": 346,
+    "model_id": 207,
+    "model": "RLC-823S1",
+    "hw_ver": "IPC_NT2NA48MPSD12",
+    "changelog": [
+      "1. Resolve hidden OSD time, adjust device name to middle-upper, and restore default settings to fix OSD time not displaying issue.",
+      "2. Regular users do not have permission to modify system configurations or change WiFi settings.",
+      "3. Address abnormality in clip function.",
+      "4. Default support for authenticated device private keys.",
+      "5. Resolve issue of encoding frame rate reduction.",
+      "6. Modify default image orientation.",
+      "7. Resolve ineffectiveness of anti-flicker settings.",
+      "8. Fix issue of plaintext password printing when adding users."
+    ],
+    "display_time": "2024-08-16 00:00:00+08:00"
+  },
+  {
+    "version": "v3.3.0.333_24071210",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/160653271721112807.1899.zip",
+    "filename": "NT98560_HBBASE_WENNT6NA58IPREOLINK333_24071210E",
+    "updated_at": "2024-07-16 14:53:34+08:00",
+    "note": "",
+    "firmware_id": 650,
+    "hw_ver_id": 342,
+    "model_id": 205,
+    "model": "Reolink Home Hub",
+    "hw_ver": "BASE_WENNT6NA5",
+    "changelog": [
+      "1.Resolves battery camera disconnection issues",
+      "2.Addresses audio issues",
+      "3.Allows WiFi to be turned off on the Hub",
+      "4.Optimizes WiFi performance",
+      "5.Improves event log functionality"
+    ],
+    "display_time": "2024-07-16 00:00:00+08:00"
+  },
+  {
+    "version": "v3.3.0.333_24071209",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/160652011721112721.3328.zip",
+    "filename": "NT98560_HBBASE_WUNNT6NA58IPREOLINK333_24071209U",
+    "updated_at": "2024-07-16 14:52:12+08:00",
+    "note": "",
+    "firmware_id": 649,
+    "hw_ver_id": 343,
+    "model_id": 205,
+    "model": "Reolink Home Hub",
+    "hw_ver": "BASE_WUNNT6NA5",
+    "changelog": [
+      "1.Resolves battery camera disconnection issues",
+      "2.Addresses audio issues",
+      "3.Allows WiFi to be turned off on the Hub",
+      "4.Optimizes WiFi performance",
+      "5.Improves event log functionality"
+    ],
+    "display_time": "2024-07-16 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3953_2409059414",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/09/140704371726297477.5627.zip",
+    "filename": "RLC_840A_v31039532409059414_IPC_NT2NA48MP",
+    "updated_at": "2024-09-14 15:05:00+08:00",
+    "note": "",
+    "firmware_id": 669,
+    "hw_ver_id": 341,
+    "model_id": 204,
+    "model": "RLC-840A",
+    "hw_ver": "IPC_NT2NA48MP",
+    "changelog": [
+      "Add webhook.",
+      "Optimize HTTPS.",
+      "Improve ONVIF functionality.",
+      "Enhance RTSP connection.",
+      "Fix bug in corridor mode.",
+      "Improve anti-flicker."
+    ],
+    "display_time": "2024-09-14 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3485_2405084609",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/05/220651581716360718.6895.zip",
+    "filename": "RLC_811WA_3485_2405084609",
+    "updated_at": "2024-05-22 14:56:36+08:00",
+    "note": "",
+    "firmware_id": 620,
+    "hw_ver_id": 339,
+    "model_id": 203,
+    "model": "RLC-811WA",
+    "hw_ver": "IPC_NT2NA48MP",
+    "changelog": [
+      "1. Optimize image parameters",
+      "2. Solve other known issues"
+    ],
+    "display_time": "2024-05-22 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3633_2406134151",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/270954211722074061.7206.zip",
+    "filename": "RLC_843WA_3633_2406134151",
+    "updated_at": "2024-07-27 17:55:15+08:00",
+    "note": "",
+    "firmware_id": 653,
+    "hw_ver_id": 337,
+    "model_id": 202,
+    "model": "RLC-843WA",
+    "hw_ver": "IPC_NT2NA48MP",
+    "changelog": [
+      "1. Optimize the day and night switching effect",
+      "2. Solve other known bugs"
+    ],
+    "display_time": "2024-07-27 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3795_24081508_v1.0.0.146",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/190719511724051991.4724.zip",
+    "filename": "RLC_823S2_3795_24081508",
+    "updated_at": "2024-08-19 15:20:19+08:00",
+    "note": "",
+    "firmware_id": 662,
+    "hw_ver_id": 336,
+    "model_id": 201,
+    "model": "RLC-823S2",
+    "hw_ver": "IPC_NT2NA48MPSD12",
+    "changelog": [
+      "1. Optimize smart detection",
+      "2. Improve image effect",
+      "3. Enhance Auto Focus",
+      "4. Optimize network performance",
+      "5. Fix other known bugs"
+    ],
+    "display_time": "2024-08-19 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3632_2406192112",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/06/280355001719546900.0793.zip",
+    "filename": "Reolink_Duo_3_PoE_3632_2406192112",
+    "updated_at": "2024-06-28 11:56:12+08:00",
+    "note": "",
+    "firmware_id": 607,
+    "hw_ver_id": 335,
+    "model_id": 200,
+    "model": "Reolink Duo 3 PoE",
+    "hw_ver": "IPC_NT13NA416MP",
+    "changelog": [
+      "1. Improve day-night transition effects.",
+      "2. Enhance audio noise reduction capabilities.",
+      "3. Enhance the actual performance of Motion Track.",
+      "4. Improve image quality in specific scenarios."
+    ],
+    "display_time": "2024-06-28 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3429_2404181316",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/05/220655151716360915.059.zip",
+    "filename": "CX410W_3429_2404181316",
+    "updated_at": "2024-05-22 14:57:13+08:00",
+    "note": "",
+    "firmware_id": 622,
+    "hw_ver_id": 334,
+    "model_id": 199,
+    "model": "CX410W",
+    "hw_ver": "IPC_NT1NA44MP",
+    "changelog": [
+      "1. Optimize HDR effect",
+      "2. Solve other known bugs"
+    ],
+    "display_time": "2024-05-22 00:00:00+08:00"
+  },
+  {
+    "version": "v3.5.0.331_24071009",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/260113361721956416.7139.zip",
+    "filename": "NVR_NNT3NA58W_E_331_24071009_E",
+    "updated_at": "2024-07-26 09:15:14+08:00",
+    "note": "",
+    "firmware_id": 640,
+    "hw_ver_id": 333,
+    "model_id": 198,
+    "model": "RLN12W",
+    "hw_ver": "NVR_NNT3NA58W_E",
+    "changelog": [
+      "1.Compatible with battery-powered WiFi cameras (the camera also needs to be upgraded to a firmware version that supports NVR)",
+      "2.Solved other known bugs.",
+      "3.Optimize the interface and interaction."
+    ],
+    "display_time": "2024-07-22 00:00:00+08:00"
+  },
+  {
+    "version": "v3.5.0.331_24071008",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/221027281721644048.0355.zip",
+    "filename": "NVR_NNT3NA58W_U_331_24071008_U",
+    "updated_at": "2024-07-22 18:29:26+08:00",
+    "note": "",
+    "firmware_id": 641,
+    "hw_ver_id": 332,
+    "model_id": 198,
+    "model": "RLN12W",
+    "hw_ver": "NVR_NNT3NA58W_U",
+    "changelog": [
+      "1.Compatible with battery-powered WiFi cameras (the camera also needs to be upgraded to a firmware version that supports NVR)",
+      "2.Solved other known bugs.",
+      "3.Optimize the interface and interaction."
+    ],
+    "display_time": "2024-07-22 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3078_2407031344",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/041111031720091463.0695.zip",
+    "filename": "B500W_3078_2407031344",
+    "updated_at": "2024-07-04 19:12:37+08:00",
+    "note": "",
+    "firmware_id": 645,
+    "hw_ver_id": 331,
+    "model_id": 194,
+    "model": "B500W",
+    "hw_ver": "IPC_MS1NO25MP",
+    "changelog": [
+      "1. Resolve known bugs"
+    ],
+    "display_time": "2024-07-04 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3078_2407031328",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/07/041113461720091626.7586.zip",
+    "filename": "B800W_3078_2407031328",
+    "updated_at": "2024-07-04 19:14:49+08:00",
+    "note": "",
+    "firmware_id": 646,
+    "hw_ver_id": 330,
+    "model_id": 196,
+    "model": "B800W",
+    "hw_ver": "IPC_MS2NO28MP",
+    "changelog": [
+      "1. Resolve known bugs"
+    ],
+    "display_time": "2024-07-04 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3872_2407262057",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/120859341723453174.6233.zip",
+    "filename": "E1_Outdoor_PoE_240726",
+    "updated_at": "2024-08-12 17:00:52+08:00",
+    "note": "",
+    "firmware_id": 658,
+    "hw_ver_id": 323,
+    "model_id": 190,
+    "model": "E1 Outdoor PoE",
+    "hw_ver": "IPC_560SD88MP",
+    "changelog": [
+      "1. Optimize tracking effect;",
+      "2. Optimize autofocus effect;",
+      "3. Optimize image effect;",
+      "4. Solve other known bugs"
+    ],
+    "display_time": "2024-08-12 00:00:00+08:00"
+  },
+  {
+    "version": "v3.4.0..304_24031823",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/04/080155521712541352.8735.zip",
+    "filename": "NVS16_304_24031823",
+    "updated_at": "2024-04-08 09:59:28+08:00",
+    "note": "",
+    "firmware_id": 609,
+    "hw_ver_id": 329,
+    "model_id": 193,
+    "model": "NVS16",
+    "hw_ver": "N6MB01",
+    "changelog": [
+      "1.Add Motion Mark.",
+      "2.Preview and playback in full screen support mode selection: Full-Frame mode, 1:1 mode, Panning mode.",
+      "3.When DUO 3 PoE is added, the preview layout will be automatically adjusted to make sure that the camera shows two lenses (under expanded mode).",
+      "4.Solved other known bugs.",
+      "5.Optimize the interface and interaction."
+    ],
+    "display_time": "2024-04-08 00:00:00+08:00"
+  },
+  {
+    "version": "v3.4.0.304_24031819",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/04/080154531712541293.6992.zip",
+    "filename": "NVS8_304_24031819",
+    "updated_at": "2024-04-08 09:59:38+08:00",
+    "note": "",
+    "firmware_id": 608,
+    "hw_ver_id": 328,
+    "model_id": 192,
+    "model": "NVS8",
+    "hw_ver": "N7MB01",
+    "changelog": [
+      "1.Add Motion Mark.",
+      "2.Preview and playback in full screen support mode selection: Full-Frame mode, 1:1 mode, Panning mode.",
+      "3.When DUO 3 PoE is added, the preview layout will be automatically adjusted to make sure that the camera shows two lenses (under expanded mode).",
+      "4.Solved other known bugs.",
+      "5.Optimize the interface and interaction."
+    ],
+    "display_time": "2024-04-08 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3514_2406039634",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/06/201033401718879620.8576.zip",
+    "filename": "E1_Outdoor_3514_2406039634",
+    "updated_at": "2024-06-20 18:34:28+08:00",
+    "note": "",
+    "firmware_id": 624,
+    "hw_ver_id": 200,
+    "model_id": 123,
+    "model": "E1 Outdoor",
+    "hw_ver": "IPC_523SD8",
+    "changelog": [
+      "1. Improve smart detection, adding pet recognition.",
+      "2. Improve self-calibration.",
+      "3. Enhance tracking performance.",
+      "4. Optimize QR code scanning functionality.",
+      "5. Improve recording feature.",
+      "6. Address inaccuracies in guard position.",
+      "7. Resolve other known bugs."
+    ],
+    "display_time": "2024-06-20 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3429_24041813",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/05/100708301715324910.3385.zip",
+    "filename": "E1Outdoor_3429_24041813",
+    "updated_at": "2024-05-10 15:18:27+08:00",
+    "note": "",
+    "firmware_id": 616,
+    "hw_ver_id": 320,
+    "model_id": 123,
+    "model": "E1 Outdoor",
+    "hw_ver": "IPC_566SD85MP",
+    "changelog": [
+      "1.Improve version compatibility between cameras"
+    ],
+    "display_time": "2024-05-10 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3429_2404181313",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/05/220656021716360962.0295.zip",
+    "filename": "CX410_3429_2404181313",
+    "updated_at": "2024-05-22 14:57:32+08:00",
+    "note": "",
+    "firmware_id": 623,
+    "hw_ver_id": 312,
+    "model_id": 186,
+    "model": "CX410",
+    "hw_ver": "IPC_NT1NA44MP",
+    "changelog": [
+      "1. Optimize HDR effect",
+      "2. Solve other known bugs"
+    ],
+    "display_time": "2024-05-22 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3872_2407304781",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/120901271723453287.4817.zip",
+    "filename": "E1_Outdoor_Pro_240730",
+    "updated_at": "2024-08-12 17:01:47+08:00",
+    "note": "",
+    "firmware_id": 659,
+    "hw_ver_id": 311,
+    "model_id": 185,
+    "model": "E1 Outdoor Pro",
+    "hw_ver": "IPC_560SD88MP",
+    "changelog": [
+      "1. Optimize tracking effect;",
+      "2. Optimize autofocus effect;",
+      "3. Optimize image effect;",
+      "4. Solve other known bugs"
+    ],
+    "display_time": "2024-08-12 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3308_2407315182",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/190849391724057379.4602.zip",
+    "filename": "Reolink_Video_Doorbell_WiFi_v30033082407315182_DB_566128M5MP_W",
+    "updated_at": "2024-08-19 16:50:38+08:00",
+    "note": "",
+    "firmware_id": 665,
+    "hw_ver_id": 301,
+    "model_id": 181,
+    "model": "Reolink Video Doorbell WiFi",
+    "hw_ver": "DB_566128M5MP_W",
+    "changelog": [
+      "Add support for ONVIF audio-related commands.",
+      "Improve compatibility with Chime and Doorbell cameras.",
+      "Enhance wall penetration performance of 2.4GHz WiFi in certain scenarios.",
+      "Fix other known bugs"
+    ],
+    "display_time": "2024-08-19 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3308_2407315183",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/08/190851131724057473.93.zip",
+    "filename": "Reolink_Video_Doorbell_PoE_v30033082407315183_DB_566128M5MP_P",
+    "updated_at": "2024-08-19 16:51:30+08:00",
+    "note": "",
+    "firmware_id": 666,
+    "hw_ver_id": 302,
+    "model_id": 180,
+    "model": "Reolink Video Doorbell PoE",
+    "hw_ver": "DB_566128M5MP_P",
+    "changelog": [
+      "Add support for ONVIF audio-related commands.",
+      "Improve compatibility with Chime and Doorbell cameras.",
+      "Fix other known bugs"
+    ],
+    "display_time": "2024-08-19 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3471_2406116681",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/06/120922311718184151.045.zip",
+    "filename": "Reolink_Duo_Floodlight_WiFi_3471_2406116681",
+    "updated_at": "2024-06-13 09:11:55+08:00",
+    "note": "",
+    "firmware_id": 627,
+    "hw_ver_id": 300,
+    "model_id": 179,
+    "model": "Reolink Duo Floodlight WiFi",
+    "hw_ver": "IPC_529B17B8MP",
+    "changelog": [
+      "1. Add Bitrate Mode function",
+      "2. Optimize smart detection",
+      "3. The https function is disabled by default",
+      "4. Support webhook function on web browser",
+      "5. Optimize day and night switching effect",
+      "6. Add audio noise reduction function",
+      "7. Solve other known bugs"
+    ],
+    "display_time": "2024-06-13 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3471_2406116597",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/06/120920051718184005.9294.zip",
+    "filename": "Reolink_Duo_Floodlight_PoE_3471_2406116597",
+    "updated_at": "2024-06-13 09:11:39+08:00",
+    "note": "",
+    "firmware_id": 628,
+    "hw_ver_id": 299,
+    "model_id": 178,
+    "model": "Reolink Duo Floodlight PoE",
+    "hw_ver": "IPC_529B17B8MP",
+    "changelog": [
+      "1. Add Bitrate Mode function",
+      "2. Optimize smart detection",
+      "3. The https function is disabled by default",
+      "4. Support webhook function on web browser",
+      "5. Optimize day and night switching effect",
+      "6. Add audio noise reduction function",
+      "7. Solve other known bugs"
+    ],
+    "display_time": "2024-06-13 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3748_2408281837",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/09/061022151725618135.7777.zip",
+    "filename": "Reolink_TrackMix_WiFi_v30037482408281837_IPC_529SD78MP",
+    "updated_at": "2024-09-06 18:24:14+08:00",
+    "note": "",
+    "firmware_id": 668,
+    "hw_ver_id": 295,
+    "model_id": 174,
+    "model": "Reolink TrackMix WiFi",
+    "hw_ver": "IPC_529SD78MP",
+    "changelog": [
+      "Optimize the recording function.",
+      "Optimize onvif service",
+      "Solve other known bugs"
+    ],
+    "display_time": "2024-09-06 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3748_2408281835",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/09/061020581725618058.088.zip",
+    "filename": "Reolink_TrackMix_PoE_v30037482408281835_IPC_529SD78MP",
+    "updated_at": "2024-09-06 18:24:53+08:00",
+    "note": "",
+    "firmware_id": 667,
+    "hw_ver_id": 294,
+    "model_id": 173,
+    "model": "Reolink TrackMix PoE",
+    "hw_ver": "IPC_529SD78MP",
+    "changelog": [
+      "Optimize the recording function.",
+      "Optimize onvif service",
+      "Solve other known bugs"
+    ],
+    "display_time": "2024-09-06 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3471_2406116464",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/06/120917151718183835.8809.zip",
+    "filename": "Reolink_Duo_2_WiFi_3471_2406116464",
+    "updated_at": "2024-06-13 09:11:24+08:00",
+    "note": "",
+    "firmware_id": 629,
+    "hw_ver_id": 288,
+    "model_id": 169,
+    "model": "Reolink Duo 2 WiFi",
+    "hw_ver": "IPC_529B17B8MP",
+    "changelog": [
+      "1. Add Bitrate Mode function",
+      "2. Optimize smart detection",
+      "3. The https function is disabled by default",
+      "4. Support webhook function on web browser",
+      "5. Optimize day and night switching effect",
+      "6. Add audio noise reduction function",
+      "7. Solve other known bugs"
+    ],
+    "display_time": "2024-06-13 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3471_2406115691",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/06/120913361718183616.5288.zip",
+    "filename": "Reolink_Duo_2_PoE_3471_2406115691",
+    "updated_at": "2024-06-13 09:11:06+08:00",
+    "note": "",
+    "firmware_id": 630,
+    "hw_ver_id": 287,
+    "model_id": 168,
+    "model": "Reolink Duo 2 POE",
+    "hw_ver": "IPC_529B17B8MP",
+    "changelog": [
+      "1. Add Bitrate Mode function",
+      "2. Optimize smart detection",
+      "3. The https function is disabled by default",
+      "4. Support webhook function on web browser",
+      "5. Optimize day and night switching effect",
+      "6. Add audio noise reduction function",
+      "7. Solve other known bugs"
+    ],
+    "display_time": "2024-06-13 00:00:00+08:00"
+  },
+  {
+    "version": "v3.5.0.329_24061729",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/06/181126381718709998.5385.zip",
+    "filename": "NT98333_NVR_36IP_L300_329_24061729",
+    "updated_at": "2024-07-08 12:12:37+08:00",
+    "note": "",
+    "firmware_id": 633,
+    "hw_ver_id": 286,
+    "model_id": 167,
+    "model": "RLN36",
+    "hw_ver": "N5MB01",
+    "changelog": [
+      "1.Compatible with battery-powered WiFi cameras (the camera also needs to be upgraded to a firmware version that supports NVR)",
+      "2.Solved other known bugs.",
+      "3.Optimize the interface and interaction."
+    ],
+    "display_time": "2024-06-18 00:00:00+08:00"
+  },
+  {
+    "version": "v3.5.0.321_24060750",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/06/071138381717760318.6292.zip",
+    "filename": "RLN16_410_321_24060750",
+    "updated_at": "2024-06-07 19:39:16+08:00",
+    "note": "",
+    "firmware_id": 626,
+    "hw_ver_id": 285,
+    "model_id": 51,
+    "model": "RLN16-410 (NVR)",
+    "hw_ver": "N6MB01",
+    "changelog": [
+      "1.Compatible with battery-powered WiFi cameras (the camera also needs to be upgraded to a firmware version that supports NVR)",
+      "2.Solved other known bugs",
+      "3.Optimize the interface and interaction"
+    ],
+    "display_time": "2024-06-07 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.3486_2405071840",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/05/110900381715418038.0131.zip",
+    "filename": "RLC_510A_240507",
+    "updated_at": "2024-05-11 17:03:43+08:00",
+    "note": "",
+    "firmware_id": 618,
+    "hw_ver_id": 325,
+    "model_id": 1,
+    "model": "RLC-510A",
+    "hw_ver": "IPC_MS1NA45MP",
+    "changelog": [
+      "1. Enhance smart detection.",
+      "2. Optimize recording overwrite strategy.",
+      "3. Improve RTSP connection efficiency.",
+      "4. Support webhook on the web interface of the camera.",
+      "5. Address some known bugs."
+    ],
+    "display_time": "2024-05-11 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.4054_2409131251",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/09/200232001726799520.6853.zip",
+    "filename": "RLC_810A_4054_2409131251",
+    "updated_at": "2024-09-20 10:32:47+08:00",
+    "note": "",
+    "firmware_id": 671,
+    "hw_ver_id": 309,
+    "model_id": 9,
+    "model": "RLC-810A",
+    "hw_ver": "IPC_56064M8MP",
+    "changelog": [
+      "1.Optimize encoding and image parameter configuration",
+      "2.Add webhook function",
+      "3.Optimize image effect"
+    ],
+    "display_time": "2024-09-20 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.4054_2409131254",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/09/200233471726799627.6589.zip",
+    "filename": "RLC_820A_4054_2409131254",
+    "updated_at": "2024-09-20 10:34:24+08:00",
+    "note": "",
+    "firmware_id": 672,
+    "hw_ver_id": 310,
+    "model_id": 18,
+    "model": "RLC-820A",
+    "hw_ver": "IPC_56064M8MP",
+    "changelog": [
+      "1.Optimize encoding and image parameter configuration",
+      "2.Add webhook function",
+      "3.Optimize image effect"
+    ],
+    "display_time": "2024-09-20 00:00:00+08:00"
+  },
+  {
+    "version": "v3.5.0.321_24060733",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/06/180850241718700624.0223.zip",
+    "filename": "RLN8_410_321_240607",
+    "updated_at": "2024-06-18 16:51:12+08:00",
+    "note": "",
+    "firmware_id": 632,
+    "hw_ver_id": 292,
+    "model_id": 33,
+    "model": "RLN8-410 (NVR)",
+    "hw_ver": "N7MB01",
+    "changelog": [
+      "1.Compatible with battery-powered WiFi cameras (the camera also needs to be upgraded to a firmware version that supports NVR)",
+      "2.Solved other known bugs.",
+      "3.Optimize the interface and interaction."
+    ],
+    "display_time": "2024-06-12 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3497_2405102255",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/05/290128251716946105.1024.zip",
+    "filename": "Reolink_Lumus_3497_2405102255",
+    "updated_at": "2024-05-29 09:29:41+08:00",
+    "note": "",
+    "firmware_id": 625,
+    "hw_ver_id": 340,
+    "model_id": 88,
+    "model": "Reolink Lumus",
+    "hw_ver": "IPC_NT1NO24MP",
+    "changelog": [
+      "1. Optimize the code scanning function",
+      "2. Optimize cloud storage function",
+      "3. Solve other known bugs"
+    ],
+    "display_time": "2024-05-29 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3382_2404177933",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/04/200827531713601673.7315.zip",
+    "filename": "E1Zoom_v3103382_2404177933",
+    "updated_at": "2024-04-20 16:30:42+08:00",
+    "note": "",
+    "firmware_id": 614,
+    "hw_ver_id": 304,
+    "model_id": 91,
+    "model": "E1 Zoom",
+    "hw_ver": "IPC_566SD65MP",
+    "changelog": [
+      "1. Optimize cloud storage function",
+      "2. Upgrade push version",
+      "3. Optimize focus function",
+      "4. Support two-way audio by ONVIF",
+      "5. Solve bugs related with PT function",
+      "6. Solve other known bugs"
+    ],
+    "display_time": "2024-04-20 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3382_2404178024",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/04/200809141713600554.3801.zip",
+    "filename": "E1Zoom_v3103382_2404178024",
+    "updated_at": "2024-04-20 16:10:10+08:00",
+    "note": "",
+    "firmware_id": 613,
+    "hw_ver_id": 303,
+    "model_id": 91,
+    "model": "E1 Zoom",
+    "hw_ver": "IPC_566SD664M5MP",
+    "changelog": [
+      "1. Optimize cloud storage function",
+      "2. Upgrade push version",
+      "3. Optimize focus function",
+      "4. Support two-way audio by ONVIF",
+      "5. Solve bugs related with PT function",
+      "6. Solve other known bugs"
+    ],
+    "display_time": "2024-04-20 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3485_2405084342",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/05/220653521716360832.9706.zip",
+    "filename": "RLC_811A_3485_2405084342",
+    "updated_at": "2024-05-22 14:56:57+08:00",
+    "note": "",
+    "firmware_id": 621,
+    "hw_ver_id": 338,
+    "model_id": 136,
+    "model": "RLC-811A",
+    "hw_ver": "IPC_560B158MP",
+    "changelog": [
+      "1. Optimize image parameters",
+      "2. Solve other known issues"
+    ],
+    "display_time": "2024-05-22 00:00:00+08:00"
   }
 ]
