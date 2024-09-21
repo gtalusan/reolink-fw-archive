@@ -120,7 +120,7 @@ def make_readme(firmwares: Iterable[Mapping[str, Any]]) -> str:
             text += "Version | Date | Changes | Notes\n"
             text += "--- | --- | --- | ---\n"
             for pi in sorted(hvs[hv], key=sort_pak_info, reverse=True):
-                fws = [fw for fw in firmwares if "sha256_pak" in fw and fw["sha256_pak"] == pi["sha256"]]
+                fws = [fw for fw in firmwares]
                 # If a firmware appears both in live and archivesv2, the live instance
                 # will appear first in the list and therefore be the one selected.
                 fw = fws[0] if fws else {}
@@ -180,7 +180,13 @@ def parse_timestamps(display_time: int, updated_at: int) -> tuple[datetime, date
 async def from_live_website() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     async with ClientSession() as session:
         devices = (await get_one(session, "https://reolink.com/wp-json/reo-v2/download/product/selection-list", "json"))["data"]
-    urls = [f"https://reolink.com/wp-json/reo-v2/download/firmware/?dlProductId={dev['id']}" for dev in devices]
+    urls = []
+    for dev in devices:
+        if "hardwareVersions" in dev:
+            for hwVer in dev["hardwareVersions"]:
+                urls.append(f"https://reolink.com/wp-json/reo-v2/download/firmware/?dlProductId={dev['id']}&hardwareVersion={hwVer['id']}")
+        else:
+            urls.append([f"https://reolink.com/wp-json/reo-v2/download/firmware/?dlProductId={dev['id']}" for dev in devices])
     firmwares = []
     for response in await get_all(urls, "json"):
         for device in response["data"]:
@@ -438,13 +444,11 @@ async def update_live_info() -> list[list[dict[str, Any]]]:
     old_len = len(firmwares_old)  # The new firmwares will start at the end of the list.
     merge_lists(devices_old, devices_new)  # Hoping the titles don't change.
     merge_lists(firmwares_old, firmwares_new, "firmware_id")
-    pak_infos = await asyncio.gather(*[firmware_info(fw["url"]) for fw in firmwares_old[old_len:] if "sha256_pak" in fw])
-    firmwares_old[old_len:] = add_and_clean(pak_infos, firmwares_old[old_len:], "live")
     with open(FILE_DEVICES, 'w', encoding="utf8") as f:
         json.dump(devices_old, f, indent=2)
     with open(FILE_FW_LIVE, 'w', encoding="utf8") as f:
         json.dump(firmwares_old, f, indent=2, default=str)
-    return pak_infos
+    return []
 
 
 async def add_firmware_manually(args: Namespace) -> None:
