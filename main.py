@@ -101,6 +101,23 @@ def make_readme(firmwares: Iterable[Mapping[str, Any]]) -> str:
     def sort_pak_info(pak_info: Mapping[str, Any]) -> str:
         return pak_info["info"]["build_date"]
 
+    for firmware in firmwares:
+        if "sha256_pak" not in firmware:
+            if "model_id" not in firmware:
+                firmware["model_id"] = firmware["model"]
+            if "hw_ver_id" not in firmware:
+                firmware["hw_ver_id"] = firmware["hw_ver"]
+            model_title, hw_title = get_names(devices, firmware["model_id"], firmware["hw_ver_id"])
+            if model_title is None or hw_title is None:
+                print("Cannot find a match for", firmware["model_id"], '/', firmware["hw_ver_id"])
+                continue
+            model_title = model_title.strip().removesuffix("-5MP").removesuffix(" (NVR)")
+            hw_title = clean_hw_ver(hw_title)
+            firmware["build_date"] = dtparse(firmware["updated_at"]).strftime("%y%m%d")
+            firmware["download"] = [firmware["url"]]
+            firmware["info"] = firmware;
+            pak_infos.setdefault(model_title, {}).setdefault(hw_title, []).append(firmware)
+
     text = f"Total: {len(pis)}\n\n"
     for model in sorted(pak_infos):
         hvs = pak_infos[model]
@@ -120,7 +137,7 @@ def make_readme(firmwares: Iterable[Mapping[str, Any]]) -> str:
             text += "Version | Date | Changes | Notes\n"
             text += "--- | --- | --- | ---\n"
             for pi in sorted(hvs[hv], key=sort_pak_info, reverse=True):
-                fws = [fw for fw in firmwares]
+                fws = [fw for fw in firmwares if "sha256_pak" in fw and "sha256" in pi and fw["sha256_pak"] == pi["sha256"]]
                 # If a firmware appears both in live and archivesv2, the live instance
                 # will appear first in the list and therefore be the one selected.
                 fw = fws[0] if fws else {}
@@ -128,14 +145,19 @@ def make_readme(firmwares: Iterable[Mapping[str, Any]]) -> str:
                 links = []
                 for url in sorted(pi["download"]):
                     dl_url = url
-                    if "filename" in fw and "wp-content" in url:
-                        dl_url += "?download_name=" + fw["filename"] + ".zip"
-                    ver = info["firmware_version_prefix"] + '.' + info["version_file"]
-                    links.append(md_link(ver, dl_url))
+                    if "firmware_version_prefix" in info:
+                        if "filename" in fw and "wp-content" in url:
+                            dl_url += "?download_name=" + fw["filename"] + ".zip"
+                        ver = info["firmware_version_prefix"] + '.' + info["version_file"]
+                        links.append(md_link(ver, dl_url))
+                    else:
+                        links.append(md_link(pi["version"], dl_url))
                 version = "<br />".join(links)
                 dt = datetime.strptime(info["build_date"], "%y%m%d").date()
                 date_str = str(dt).replace('-', chr(0x2011))
                 new = make_changes(fw.get("changelog", []))
+                if new == '':
+                    new = make_changes(info.get("changelog", []))
                 notes = []
                 if pi.get("beta"):
                     notes.append(":warning: This is a beta firmware")
