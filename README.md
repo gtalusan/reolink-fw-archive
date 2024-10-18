@@ -2483,10 +2483,11 @@ Version | Date | Changes | Notes
 
   ### DB_566128M5MP_P
 
-Firmwares for this hardware version: 7
+Firmwares for this hardware version: 8
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.4110_2410111120](https://home-cdn.reolink.us/wp-content/uploads/2024/10/181040331729248033.5364.zip) | 2024‑10‑18 | <ol><li>Integrate Halloween festival reply audio.</li><li>Integrate Reolink Chime silent mode.</li><li>Integrate device-sharing feature.</li><li>Add AI vehicle detection.</li><li>Integrate webhook function.</li><li>Solve the issue of difficult switching from black-and-white mode to color mode.</li></ol> | 
 [v3.0.0.3308_2407315183](https://home-cdn.reolink.us/wp-content/uploads/2024/08/190851131724057473.93.zip) | 2024‑08‑19 | <ol><li>Add support for ONVIF audio-related commands.</li><li>Improve compatibility with Chime and Doorbell cameras.</li><li>Fix other known bugs</li></ol> | 
 [v3.0.0.3215_2401262241](https://home-cdn.reolink.us/wp-content/uploads/2024/03/010147201709257640.8976.zip?download_name=Reolink_video_doorbell_POE_v30032152401262241_IPC_DB.zip) | 2024‑01‑26 |  | 1. Optimize the status light illumination logic of the Doorbell to indicate network connectivity status.2. Support more options for Overwrite Recordings, like 1 Day(s).3. Fix the bug that there are continuous visitor push triggers during two-way audio usage.4. Support showing Motion Mark on the Playback page.5. Support Cloud encryption.6. Support calling via Doorbell ring.7. Fixed some bugs.
 [v3.0.0.2555_23080702](https://drive.google.com/uc?id=1x0OEBOnMWt3zCDu32Ncux5bYHBUUkMh9&confirm=t) | 2023‑08‑07 | Beta test: improved echo cancellation for the two-way audio feature. Check the source for details | :warning: This is a beta firmware<br />[Source 1](https://www.reddit.com/r/reolinkcam/comments/15h2kar/testers_wanted_for_doorbell_camera_new_firmware/)
@@ -2506,10 +2507,11 @@ Version | Date | Changes | Notes
 
   ### DB_566128M5MP_P_W
 
-Firmwares for this hardware version: 1
+Firmwares for this hardware version: 2
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.41102410111128](https://home-cdn.reolink.us/wp-content/uploads/2024/10/181043081729248188.5317.zip) | 2024‑10‑18 | <ol><li>Integrate Halloween festival reply audio.</li><li>Integrate Reolink Chime silent mode.</li><li>Integrate device-sharing feature.</li><li>Add AI vehicle detection.</li><li>Integrate webhook function.</li><li>Solve the issue of difficult switching from black-and-white mode to color mode.</li></ol> | 
 [v3.0.0.3308_2408051176](https://home-cdn.reolink.us/wp-content/uploads/2024/08/190847041724057224.7904.zip) | 2024‑08‑19 | <ol><li>Add support for ONVIF audio-related commands.</li><li>Improve compatibility with Chime and Doorbell cameras.</li><li>Fix other known bugs</li></ol> | 
 
 </details>
@@ -2523,10 +2525,11 @@ Version | Date | Changes | Notes
 
   ### DB_566128M5MP_W
 
-Firmwares for this hardware version: 7
+Firmwares for this hardware version: 8
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.4110_2410111119](https://home-cdn.reolink.us/wp-content/uploads/2024/10/181041501729248110.7924.zip) | 2024‑10‑18 | <ol><li>Integrate Halloween festival reply audio.</li><li>Integrate Reolink Chime silent mode.</li><li>Integrate device-sharing feature.</li><li>Add AI vehicle detection.</li><li>Integrate webhook function.</li><li>Solve the issue of difficult switching from black-and-white mode to color mode.</li></ol> | 
 [v3.0.0.3308_2407315182](https://home-cdn.reolink.us/wp-content/uploads/2024/08/190849391724057379.4602.zip) | 2024‑08‑19 | <ol><li>Add support for ONVIF audio-related commands.</li><li>Improve compatibility with Chime and Doorbell cameras.</li><li>Enhance wall penetration performance of 2.4GHz WiFi in certain scenarios.</li><li>Fix other known bugs</li></ol> | 
 [v3.0.0.3215_2401262240](https://home-cdn.reolink.us/wp-content/uploads/2024/03/010156211709258181.3009.zip?download_name=Reolink_video_doorbell_wifi_v30032152401262240_IPC_DB.zip) | 2024‑01‑26 |  | 1. Optimize the status light illumination logic of the Doorbell to indicate network connectivity status.2. Support more options for Overwrite Recordings, like 1 Day(s).3. Fix the bug that there are continuous visitor push triggers during two-way audio usage.4. Support showing Motion Mark on the Playback page.5. Support Cloud encryption.6. Support calling via Doorbell ring.7. Fixed some bugs.
 [v3.0.0.2555_23080700](https://drive.google.com/uc?id=1wPLWWGnRJGuGb360V7C1MCavP-Zv0l7L&confirm=t) | 2023‑08‑07 | Beta test: improved echo cancellation for the two-way audio feature. Check the source for details | :warning: This is a beta firmware<br />[Source 1](https://www.reddit.com/r/reolinkcam/comments/15h2kar/testers_wanted_for_doorbell_camera_new_firmware/)
@@ -2546,10 +2549,11 @@ Version | Date | Changes | Notes
 
   ### DB_566128M5MP_W_W
 
-Firmwares for this hardware version: 1
+Firmwares for this hardware version: 2
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.4110_2410111127](https://home-cdn.reolink.us/wp-content/uploads/2024/10/181044141729248254.7736.zip) | 2024‑10‑18 | <ol><li>Integrate Halloween festival reply audio.</li><li>Integrate Reolink Chime silent mode.</li><li>Integrate device-sharing feature.</li><li>Add AI vehicle detection.</li><li>Integrate webhook function.</li><li>Solve the issue of difficult switching from black-and-white mode to color mode.</li></ol> | 
 [v3.0.0.3308_2408051175](https://home-cdn.reolink.us/wp-content/uploads/2024/08/190848211724057301.9162.zip) | 2024‑08‑19 | <ol><li>Add support for ONVIF audio-related commands.</li><li>Improve compatibility with Chime and Doorbell cameras.</li><li>Enhance wall penetration performance of 2.4GHz WiFi in certain scenarios.</li><li>Fix other known bugs</li></ol> | 
 
 </details>
