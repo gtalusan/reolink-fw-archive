@@ -205,8 +205,8 @@ async def main():
     conn_drive = aiohttp.TCPConnector(limit=args.max_connections_gdrive)
     async with (aiohttp.ClientSession(connector=conn) as session,
                 aiohttp.ClientSession(connector=conn_drive) as session_drive):
-        pak_info = await fetch(session, "https://raw.githubusercontent.com/pppedrillo/reolink-fw-archive/autoupdate/pak_info.json")
-        devices = await fetch(session, "https://raw.githubusercontent.com/pppedrillo/reolink-fw-archive/autoupdate/devices.json")
+        pak_info = await fetch(session, "https://raw.githubusercontent.com/AT0myks/reolink-fw-archive/main/pak_info.json")
+        devices = await fetch(session, "https://raw.githubusercontent.com/AT0myks/reolink-fw-archive/main/devices.json")
         sessions = [session, session_drive]
         tasks = [asyncio.create_task(download(sessions, devices, sha256, info, args.directory, args.force, args.skip)) for sha256, info in pak_info.items()]
         for task in tasks:
