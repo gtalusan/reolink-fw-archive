@@ -136,6 +136,11 @@ def already_downloaded(path: Path, sha256: str, skip=False):
 
 async def download(sessions, devices, sha256: str, info, directory: Path, force=False, skip=False):
     model, hw_ver = get_names(devices, info["model_id"], info["hw_ver_id"])
+
+    if model is None or hw_ver is None:
+        print ('Can not get model and hw version for ' + str(info['info']['display_type_info']) + ' (model_id == ' + str(info["model_id"]) + ',  hw_ver_id == ' + str(info["hw_ver_id"]) + ')') 
+        return False, None, None
+
     version = info["info"]["firmware_version_prefix"] + '.' + info["info"]["version_file"]
     filename = "__".join((model, hw_ver, version))
     path = directory / model / hw_ver.strip() / (filename + TMP_EXT)
@@ -200,8 +205,8 @@ async def main():
     conn_drive = aiohttp.TCPConnector(limit=args.max_connections_gdrive)
     async with (aiohttp.ClientSession(connector=conn) as session,
                 aiohttp.ClientSession(connector=conn_drive) as session_drive):
-        pak_info = await fetch(session, "https://raw.githubusercontent.com/AT0myks/reolink-fw-archive/main/pak_info.json")
-        devices = await fetch(session, "https://raw.githubusercontent.com/AT0myks/reolink-fw-archive/main/devices.json")
+        pak_info = await fetch(session, "https://raw.githubusercontent.com/pppedrillo/reolink-fw-archive/autoupdate/pak_info.json")
+        devices = await fetch(session, "https://raw.githubusercontent.com/pppedrillo/reolink-fw-archive/autoupdate/devices.json")
         sessions = [session, session_drive]
         tasks = [asyncio.create_task(download(sessions, devices, sha256, info, args.directory, args.force, args.skip)) for sha256, info in pak_info.items()]
         for task in tasks:

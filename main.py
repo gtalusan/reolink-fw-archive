@@ -505,12 +505,13 @@ if __name__ == "__main__":
 
     def update(args: Namespace) -> None:
         # Catch output from ubireader.
+        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
         with redirect_stdout(StringIO()) as f:
             new = asyncio.run(update_live_info())
             write_readme()
         if not args.github:
             print(f.getvalue(), end='')
-        print(json.dumps(new or None))  # Empty array is not falsy in JavaScript.
+        print(json.dumps(new or 'No updates found'))  # Empty array is not falsy in JavaScript.
 
     def readme(args: Namespace) -> None:
         write_readme()
