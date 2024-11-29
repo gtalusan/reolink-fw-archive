@@ -5008,5 +5008,24 @@
       "20. Other known bugs fixed."
     ],
     "display_time": "2024-11-26 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.4187_2411071868",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/11/290252251732848745.796.zip",
+    "filename": "E1_Zoom_4187_2411071868",
+    "updated_at": "2024-11-29 10:53:18+08:00",
+    "note": "",
+    "firmware_id": 683,
+    "hw_ver_id": 303,
+    "model_id": 91,
+    "model": "E1 Zoom",
+    "hw_ver": "IPC_566SD664M5MP",
+    "changelog": [
+      "1. Crying Sound Detection feature added",
+      "2. Auto-Tracking performance improved",
+      "3. Bugs on some third-party clients fixed",
+      "4. Other known bugs resolved"
+    ],
+    "display_time": "2024-11-29 00:00:00+08:00"
   }
 ]
