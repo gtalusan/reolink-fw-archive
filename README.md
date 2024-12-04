@@ -2417,6 +2417,31 @@ Version | Date | Changes | Notes
 </details>
 
 <details>
+  <summary>Reolink Home Hub Pro (NVR)</summary>
+
+<img src="https://reolink-storage.s3.us-east-1.amazonaws.com/website/uploads/assets/app/model-images/Reolink+Home+Hub+Pro/product.png" width="150">
+
+[Product page](https://reolink.com/us/product/reolink-home-hub-pro/)
+
+  ### BASE_WENNT3NA5
+
+Firmwares for this hardware version: 1
+
+Version | Date | Changes | Notes
+--- | --- | --- | ---
+[v3.3.0.369_24112932](https://home-cdn.reolink.us/wp-content/uploads/2024/12/040758301733299110.6268.zip) | 2024‑12‑04 | <ol><li>Playing back recordings stored on the IPC's microSD card supported .</li><li>Live viewing in H.265 and playing back encrypted recordings supported on the web interface.</li><li>Wi-Fi performance improved with the addition of channel selection, DFS switch, DFS channel selection, and Wi-Fi diagnostic information.</li><li>Pre-recording mode and smart battery mode of Altas PT Ultra now compatible with Reolink Home Hub Pro.</li><li>IPC initialization process via Reolink Home Hub Pro streamlined.</li><li>Known Bugs Fixed.</li></ol> | 
+
+  ### BASE_WUNNT3NA5
+
+Firmwares for this hardware version: 1
+
+Version | Date | Changes | Notes
+--- | --- | --- | ---
+[v3.3.0.369_24112931](https://home-cdn.reolink.us/wp-content/uploads/2024/12/040759141733299154.2608.zip) | 2024‑12‑04 | <ol><li>Playing back recordings stored on the IPC's microSD card supported .</li><li>Live viewing in H.265 and playing back encrypted recordings supported on the web interface.</li><li>Wi-Fi performance improved with the addition of channel selection, DFS switch, DFS channel selection, and Wi-Fi diagnostic information.</li><li>Pre-recording mode and smart battery mode of Altas PT Ultra now compatible with Reolink Home Hub Pro.</li><li>IPC initialization process via Reolink Home Hub Pro streamlined.</li><li>Known Bugs Fixed.</li></ol> | 
+
+</details>
+
+<details>
   <summary>Reolink Lumus</summary>
 
 <img src="https://home-cdn.reolink.us/wp-content/assets/2020/01/reolink-lumus-340.png" width="150">
