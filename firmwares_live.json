@@ -5143,5 +5143,73 @@
       "22. Other known bugs fixed."
     ],
     "display_time": "2024-12-09 00:00:00+08:00"
+  },
+  {
+    "version": "v3.0.0.4348_2411261893",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/12/050933011733391181.0099.zip",
+    "filename": "RLC_810WA_4348_2411261893",
+    "updated_at": "2024-12-09 17:25:53+08:00",
+    "note": "",
+    "firmware_id": 686,
+    "hw_ver_id": 355,
+    "model_id": 215,
+    "model": "RLC-810WA",
+    "hw_ver": "IPC_MS2NA48MP",
+    "changelog": [
+      "1. Two-way Audio feature enhanced.",
+      "2. Smart Detection feature improved.",
+      "3. Push notification feature enhanced.",
+      "4. Cloud service and Cloud File Encryption feature added.",
+      "5. Other known bugs resolved."
+    ],
+    "display_time": "2024-12-05 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3927_2409231464",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/12/091008081733738888.1997.zip",
+    "filename": "RLC_811WA_240923",
+    "updated_at": "2024-12-09 18:08:34+08:00",
+    "note": "",
+    "firmware_id": 691,
+    "hw_ver_id": 339,
+    "model_id": 203,
+    "model": "RLC-811WA",
+    "hw_ver": "IPC_NT2NA48MP",
+    "changelog": [
+      "1.Cloud service and Cloud File Encryption feature added."
+    ],
+    "display_time": "2024-12-09 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3633_2409231412",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/12/091006151733738775.0607.zip",
+    "filename": "RLC_843WA_240923",
+    "updated_at": "2024-12-09 18:06:48+08:00",
+    "note": "",
+    "firmware_id": 690,
+    "hw_ver_id": 337,
+    "model_id": 202,
+    "model": "RLC-843WA",
+    "hw_ver": "IPC_NT2NA48MP",
+    "changelog": [
+      "1.Cloud service and Cloud File Encryption feature added."
+    ],
+    "display_time": "2024-12-09 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.3429_2409235402",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/12/091003341733738614.0845.zip",
+    "filename": "CX410W_3429_2409235402",
+    "updated_at": "2024-12-09 18:04:20+08:00",
+    "note": "",
+    "firmware_id": 689,
+    "hw_ver_id": 334,
+    "model_id": 199,
+    "model": "CX410W",
+    "hw_ver": "IPC_NT1NA44MP",
+    "changelog": [
+      "1.Cloud service and Cloud File Encryption feature added."
+    ],
+    "display_time": "2024-12-09 00:00:00+08:00"
   }
 ]
