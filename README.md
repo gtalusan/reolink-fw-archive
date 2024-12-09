@@ -792,10 +792,11 @@ Version | Date | Changes | Notes
 
   ### N6MB01
 
-Firmwares for this hardware version: 1
+Firmwares for this hardware version: 2
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.5.1.368_24120207](https://home-cdn.reolink.us/wp-content/uploads/2024/12/090353441733716424.7607.zip) | 2024‑12‑09 | <ol><li>User interactions optimized and upgraded.</li><li>Compatible with battery-powered WiFi cameras (the camera also needs to be upgraded to a firmware version that supports NVR)</li><li>Event History feature added.</li><li>HyBridge Mode added.</li><li>Pattern Unlock feature added.</li><li>Screen resolution recommendation added for HDMI display (monitor support required).</li><li>Safe Ejection feature for USB drives added.</li><li>Network Topology page added.</li><li>Configurations retained by default during version upgrade (option to retain UID).</li><li>Physical keyboard support added (limited to English and numeric input).</li><li>Corridor Mode supported for some IPC models (IPC must be updated and compatible with this mode).</li><li>Motion track image sending available on Reolink Duo 3 PoE and Reolink Duo 3V PoE</li><li>Wireless chime pairing added for battery doorbell.</li><li>Continuous recording schedule for battery-powered camera model Reolink Altas PT Ultra supported.</li><li>Setup wizard optimized.</li><li>Live view interface optimized.</li><li>Network settings interface optimized.</li><li>Email feature interface and interactions optimized.</li><li>Video loss push notification disabled.</li><li>Fixed issue with camera name changes not applying reliably in Reolink App.</li><li>Web client updated.</li><li>Other known bugs fixed.</li></ol> | 
 [v3.4.0..304_24031823](https://home-cdn.reolink.us/wp-content/uploads/2024/04/080155521712541352.8735.zip) | 2024‑04‑08 | <ol><li>Add Motion Mark.</li><li>Preview and playback in full screen support mode selection: Full-Frame mode, 1:1 mode, Panning mode.</li><li>When DUO 3 PoE is added, the preview layout will be automatically adjusted to make sure that the camera shows two lenses (under expanded mode).</li><li>Solved other known bugs.</li><li>Optimize the interface and interaction.</li></ol> | 
 
 </details>
@@ -805,10 +806,11 @@ Version | Date | Changes | Notes
 
   ### N7MB01
 
-Firmwares for this hardware version: 1
+Firmwares for this hardware version: 2
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.5.1.368_24120243](https://home-cdn.reolink.us/wp-content/uploads/2024/12/090349141733716154.5435.zip) | 2024‑12‑09 | <ol><li>User interactions optimized and upgraded.</li><li>Compatible with battery-powered WiFi cameras (the camera also needs to be upgraded to a firmware version that supports NVR)</li><li>Event History feature added.</li><li>HyBridge Mode added.</li><li>Pattern Unlock feature added.</li><li>Screen resolution recommendation added for HDMI display (monitor support required).</li><li>Safe Ejection feature for USB drives added.</li><li>Network Topology page added.</li><li>Configurations retained by default during version upgrade (option to retain UID).</li><li>Physical keyboard support added (limited to English and numeric input).</li><li>Corridor Mode supported for some IPC models (IPC must be updated and compatible with this mode).</li><li>Motion track image sending available on Reolink Duo 3 PoE and Reolink Duo 3V PoE</li><li>Wireless chime pairing added for battery doorbell.</li><li>Continuous recording schedule for battery-powered camera model Reolink Altas PT Ultra supported.</li><li>Setup wizard optimized.</li><li>Live view interface optimized.</li><li>Network settings interface optimized.</li><li>Email feature interface and interactions optimized.</li><li>Video loss push notification disabled.</li><li>Fixed issue with camera name changes not applying reliably in Reolink App.</li><li>Web client updated.</li><li>Other known bugs fixed.</li></ol> | 
 [v3.4.0.304_24031819](https://home-cdn.reolink.us/wp-content/uploads/2024/04/080154531712541293.6992.zip) | 2024‑04‑08 | <ol><li>Add Motion Mark.</li><li>Preview and playback in full screen support mode selection: Full-Frame mode, 1:1 mode, Panning mode.</li><li>When DUO 3 PoE is added, the preview layout will be automatically adjusted to make sure that the camera shows two lenses (under expanded mode).</li><li>Solved other known bugs.</li><li>Optimize the interface and interaction.</li></ol> | 
 
 </details>
