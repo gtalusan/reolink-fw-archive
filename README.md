@@ -624,10 +624,11 @@ Version | Date | Changes | Notes
 
   ### IPC_MS1NA44MP
 
-Firmwares for this hardware version: 1
+Firmwares for this hardware version: 2
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.4348_2411261883](https://home-cdn.reolink.us/wp-content/uploads/2024/12/160417081734322628.0237.zip) | 2024‑12‑16 | <ol><li>Camera security improved.</li><li>Overall camera performance optimized.</li></ol> | 
 [v3.0.0.3715_2406271290](https://home-cdn.reolink.us/wp-content/uploads/2024/07/170154381721181278.2936.zip) | 2024‑07‑17 | <ol><li>Optimize night vision image effects.</li><li>Optimize tracking effects.</li><li>Solve some known bugs in live view and pre-record.</li><li>Optimize snapshot effects.</li><li>Solve other known bugs.</li></ol> | 
 
 </details>
@@ -799,6 +800,21 @@ Version | Date | Changes | Notes
 --- | --- | --- | ---
 [v3.5.1.368_24120207](https://home-cdn.reolink.us/wp-content/uploads/2024/12/090353441733716424.7607.zip) | 2024‑12‑09 | <ol><li>User interactions optimized and upgraded.</li><li>Compatible with battery-powered WiFi cameras (the camera also needs to be upgraded to a firmware version that supports NVR)</li><li>Event History feature added.</li><li>HyBridge Mode added.</li><li>Pattern Unlock feature added.</li><li>Screen resolution recommendation added for HDMI display (monitor support required).</li><li>Safe Ejection feature for USB drives added.</li><li>Network Topology page added.</li><li>Configurations retained by default during version upgrade (option to retain UID).</li><li>Physical keyboard support added (limited to English and numeric input).</li><li>Corridor Mode supported for some IPC models (IPC must be updated and compatible with this mode).</li><li>Motion track image sending available on Reolink Duo 3 PoE and Reolink Duo 3V PoE</li><li>Wireless chime pairing added for battery doorbell.</li><li>Continuous recording schedule for battery-powered camera model Reolink Altas PT Ultra supported.</li><li>Setup wizard optimized.</li><li>Live view interface optimized.</li><li>Network settings interface optimized.</li><li>Email feature interface and interactions optimized.</li><li>Video loss push notification disabled.</li><li>Fixed issue with camera name changes not applying reliably in Reolink App.</li><li>Web client updated.</li><li>Other known bugs fixed.</li></ol> | 
 [v3.4.0..304_24031823](https://home-cdn.reolink.us/wp-content/uploads/2024/04/080155521712541352.8735.zip) | 2024‑04‑08 | <ol><li>Add Motion Mark.</li><li>Preview and playback in full screen support mode selection: Full-Frame mode, 1:1 mode, Panning mode.</li><li>When DUO 3 PoE is added, the preview layout will be automatically adjusted to make sure that the camera shows two lenses (under expanded mode).</li><li>Solved other known bugs.</li><li>Optimize the interface and interaction.</li></ol> | 
+
+</details>
+
+<details>
+  <summary>NVS36 (NVR)</summary>
+
+<img src="https://reolink-storage.s3.amazonaws.com/website/uploads/assets/app/model-images/NVS36/product.png" width="150">
+
+  ### N5MB01
+
+Firmwares for this hardware version: 1
+
+Version | Date | Changes | Notes
+--- | --- | --- | ---
+[v3.5.1.368_24120239](https://home-cdn.reolink.us/wp-content/uploads/2024/12/160203291734314609.0972.zip) | 2024‑12‑16 | <ol><li>User interactions optimized and upgraded.</li><li>Compatible with battery-powered WiFi cameras (the camera also needs to be upgraded to a firmware version that supports NVR)</li><li>Event History feature added.</li><li>Pattern Unlock feature added.</li><li>Screen resolution recommendation added for HDMI display (monitor support required).</li><li>Safe Ejection feature for USB drives added.</li><li>Network Topology page added.</li><li>Configurations retained by default during version upgrade (option to retain UID).</li><li>Physical keyboard support added (limited to English and numeric input).</li><li>Corridor Mode supported for some IPC models (IPC must be updated and compatible with this mode).</li><li>Motion track image sending available on Reolink Duo 3 PoE and Reolink Duo 3V PoE</li><li>Wireless chime pairing added for battery doorbell.</li><li>Continuous recording schedule for battery-powered camera model Reolink Altas PT Ultra supported.</li><li>Setup wizard optimized.</li><li>Live view interface optimized.</li><li>Network settings interface optimized.</li><li>Email feature interface and interactions optimized.</li><li>Video loss push notification disabled.</li><li>Fixed issue with camera name changes not applying reliably in Reolink App.</li><li>Web client updated.</li><li>Other known bugs fixed.</li></ol> | 
 
 </details>
 
@@ -1378,10 +1394,11 @@ Version | Date | Changes | Notes
 
   ### IPC_MS1NA45MP
 
-Firmwares for this hardware version: 2
+Firmwares for this hardware version: 3
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.4348_2411261176](https://home-cdn.reolink.us/wp-content/uploads/2024/12/160418301734322710.6645.zip) | 2024‑12‑16 | <ol><li>Camera security improved.</li><li>Overall camera performance optimized.</li></ol> | 
 [v3.0.0.3486_2405071840](https://home-cdn.reolink.us/wp-content/uploads/2024/05/110900381715418038.0131.zip) | 2024‑05‑11 | <ol><li>Enhance smart detection.</li><li>Optimize recording overwrite strategy.</li><li>Improve RTSP connection efficiency.</li><li>Support webhook on the web interface of the camera.</li><li>Address some known bugs.</li></ol> | 
 [v3.0.0.2839_23102300](https://home-cdn.reolink.us/wp-content/uploads/2023/12/040703291701673409.733.zip?download_name=RLC_510A_v300242923102300_IPC_MS1NA45MP.zip) | 2023‑10‑23 | <ol><li>Solved the problem that the camera's mainstream disconnects from SecuritySpy automatically</li><li>Optimize the image performance</li><li>Optimize the audio</li><li>Fix some known bugs</li></ol> | 
 
@@ -1408,10 +1425,11 @@ Version | Date | Changes | Notes
 
   ### IPC_MS1NA45MP
 
-Firmwares for this hardware version: 1
+Firmwares for this hardware version: 2
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.4348_2411261178](https://home-cdn.reolink.us/wp-content/uploads/2024/12/160421301734322890.2864.zip) | 2024‑12‑16 | <ol><li>Camera security improved.</li><li>Overall camera performance optimized.</li></ol> | 
 [v3.0.0.2839_23102302](https://home-cdn.reolink.us/wp-content/uploads/2023/12/040724341701674674.5826.zip?download_name=RLC_510WA_v300242923102302_IPC_MS1NA45MP.zip) | 2023‑10‑23 | <ol><li>Solved the problem that the camera's mainstream disconnects from SecuritySpy automatically</li><li>Optimize the image performance</li><li>Optimize the audio</li><li>Fix some known bugs</li></ol> | 
 
 </details>
@@ -1545,10 +1563,11 @@ Version | Date | Changes | Notes
 
   ### IPC_MS1NA45MP
 
-Firmwares for this hardware version: 1
+Firmwares for this hardware version: 2
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.4348_2411261177](https://home-cdn.reolink.us/wp-content/uploads/2024/12/160420051734322805.6261.zip) | 2024‑12‑16 | <ol><li>Camera security improved.</li><li>Overall camera performance optimized.</li></ol> | 
 [v3.0.0.2839_23102301](https://home-cdn.reolink.us/wp-content/uploads/2023/12/040721491701674509.5846.zip?download_name=RLC_520A_v300242923102301_IPC_MS1NA45MP.zip) | 2023‑10‑23 | <ol><li>Solved the problem that the camera's mainstream disconnects from SecuritySpy automatically</li><li>Optimize the image performance</li><li>Optimize the audio</li><li>Fix some known bugs</li></ol> | 
 
 </details>
@@ -1596,6 +1615,19 @@ Version | Date | Changes | Notes
 [v3.1.0.850_22032204](https://drive.google.com/uc?id=1yzP4iT5DMvKGJHHjmDuMk3_MDrIc4Zmv&confirm=t) | 2022‑03‑22 | Check the sources for details | :warning: This is a beta firmware<br />[Source 1](https://www.reddit.com/r/reolinkcam/comments/tgax4i/rlc823a_rlc523wa_beta_firmware_pan_tilt/)<br />[Source 2](https://www.reddit.com/r/reolinkcam/comments/tm0ud7/continuous_updatefollow_up_of_the_rlc823a/)<br />[Source 3](https://community.reolink.com/topic/3116/rlc-823a-rlc-523wa-beta-firmware-pan-tilt-auto-tracking-optimization-updated-guard-point-issue-solved)
 [v3.1.0.804_22011510](https://home-cdn.reolink.us/wp-content/uploads/2022/01/191103561642590236.7798.zip?download_name=RLC_523WA_22011510.zip) | 2022‑01‑15 | <ol><li>Optimized AI detection function<ol type="a"><li>Upgraded the AI model to improve the recognition accuracy of people, cars, and pets (the  new features of 8MP models), and optimized static AI false alarm issue</li><li>Increased the AI delay alarm function, which can reduce dynamic misjudgments caused by flying insects, rain, etc. by adjusting the delay gear</li><li>Optimized the alarm area settings to reduce false alarms in the shielded area</li><li>Optimized the AI sensitivity setting: It will not send AI alarm when the AI detection sensitivity is 0</li><li>Optimized the false alarms caused by day and night switching and lighting changes, and solved the problem that the spotlight will repeatedly turn on and off in some scenes</li><li>Optimized the automatic tracking function to solve the chaotic tracking problem of the camera in some scenarios</li><li>Added the vertical tracking function for RLC- 523WA, RLC-823A</li></ol></li><li>Added AI smart detection type option for spotlight, so you can choose AI type for the smart spotlight</li><li>Optimized FTP function<ol type="a"><li>Supported FTPS encryption to improve the security of FTP transfer files</li><li>Optimized the FTP transfer file type:You can choose to transfer only video, only pictures, and transfer both videos and pictures to the FTP server</li><li>Increased Overwrite function for picture only and video only function</li><li>Added 2s/5s/10s interval options for FTP capture picture</li><li>Optimized the upload file directory function: You can choose to folder by day/month, or save all files in the same folder</li></ol></li><li>Optimized the push function and increased the push interval setting function</li><li>Increased the Test error code function for the Email, FTP, push settings, which could help find the cause of the error</li><li>Added switch for RTSP, ONVIF, HTTP, HTTPS service. Users can turn on and off the corresponding network services as needed</li><li>Increased the function of locking the device: The device will be locked for 2 seconds after logging in with an incorrect password to improve login security and prevent malicious attacks</li><li>Added web certificate import function</li><li>Updated RTSP version</li><li>Optimized the AF algorithm to solve the problem of unclear focus in some scenes</li><li>Optimized pre-record time of videos and solved the problem of too long pre-record time in some scenes</li><li>Added day and night switching threshold adjustment function</li></ol> | 1. Due to the addition of new functions and the modification of some functions, it's suggested  to check the Update Configuration File option when upgrading, or restore the camera after the firmware upgrading
 [v3.1.0.598_21091310](https://drive.google.com/uc?id=1C6hA0m8QlVuXenm7vyO5TtkhZzjD1uMs&confirm=t) | 2021‑09‑13 | Check the source for details | :warning: This is a beta firmware<br />[Source 1](https://www.reddit.com/r/reolinkcam/comments/ptupxs/tester_wanted_for_the_beta_test_for_new_ai/)<br />[Source 2](https://drive.google.com/drive/folders/1S1KCRPH7u0BQ02D2drxLTmnsb7tyD17v)
+
+</details>
+
+<details>
+  <summary>RLC-540A</summary>
+
+  ### IPC_MS1NA45MP
+
+Firmwares for this hardware version: 1
+
+Version | Date | Changes | Notes
+--- | --- | --- | ---
+[v3.0.0.4348_2411261180](https://home-cdn.reolink.us/wp-content/uploads/2024/12/160426121734323172.7638.zip) | 2024‑12‑16 | <ol><li>Camera security improved.</li><li>Overall camera performance optimized.</li></ol> | 
 
 </details>
 
@@ -2485,10 +2517,11 @@ Version | Date | Changes | Notes
 
   ### IPC_529SD78MP
 
-Firmwares for this hardware version: 8
+Firmwares for this hardware version: 9
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.4255_2411271220](https://home-cdn.reolink.us/wp-content/uploads/2024/12/160408401734322120.3641.zip) | 2024‑12‑16 | <ol><li>Optimize network services.</li><li>Minor bug fixes and improvements.</li></ol> | 
 [v3.0.0.3748_2408281835](https://home-cdn.reolink.us/wp-content/uploads/2024/09/061020581725618058.088.zip) | 2024‑09‑06 | <ol><li>Optimize the recording function.</li><li>Optimize onvif service</li><li>Solve other known bugs</li></ol> | 
 [v3.0.0.2769_23100900](https://home-cdn.reolink.us/wp-content/uploads/2023/11/080300421699412442.0292.zip?download_name=Reolink_TrackMix_PoE_2769_23100900.zip) | 2023‑10‑09 | <ol><li>Support setting Wi-Fi Band Preference</li><li>Optimize Auto-tracking</li><li>Support Webhook</li><li>Optimize some network features</li><li>Optimize smart detection. Animal detction is added.</li><li>Fix some bugs</li></ol> | 
 [v3.0.0.1817_23022700](https://home-cdn.reolink.us/wp-content/uploads/2023/02/280900161677574816.5116.zip?download_name=Reolink_TrackMix_PoE_23022700.zip) | 2023‑02‑27 | <ol><li>Added intelligent audio noise reduction function</li><li>Optimized auto-tracking function</li><li>Fixed the problem that the brightness cannot recover after you change it from Manual back to Auto mode in the Brightness&amp;Shadows settings.</li><li>Fixed other known bugs.</li></ol> | 
@@ -2509,10 +2542,11 @@ Version | Date | Changes | Notes
 
   ### IPC_529SD78MP
 
-Firmwares for this hardware version: 5
+Firmwares for this hardware version: 6
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.0.0.4255_2411271222](https://home-cdn.reolink.us/wp-content/uploads/2024/12/160407391734322059.7337.zip) | 2024‑12‑16 | <ol><li>Optimize network services.</li><li>Minor bug fixes and improvements.</li></ol> | 
 [v3.0.0.3748_2408281837](https://home-cdn.reolink.us/wp-content/uploads/2024/09/061022151725618135.7777.zip) | 2024‑09‑06 | <ol><li>Optimize the recording function.</li><li>Optimize onvif service</li><li>Solve other known bugs</li></ol> | 
 [v3.0.0.2769_23100901](https://home-cdn.reolink.us/wp-content/uploads/2023/11/080302101699412530.5626.zip?download_name=Reolink_TrackMix_WiFi_2769_23100901.zip) | 2023‑10‑09 | <ol><li>Support setting Wi-Fi Band Preference</li><li>Optimize Auto-tracking</li><li>Support Webhook</li><li>Optimize some network features</li><li>Optimize smart detection. Animal detction is added.</li><li>Fix some bugs</li></ol> | 
 [v3.0.0.1817_23022701](https://home-cdn.reolink.us/wp-content/uploads/2023/02/280858031677574683.5361.zip?download_name=Reolink_TrackMix_WiFi_23022701.zip) | 2023‑02‑27 | <ol><li>Added intelligent audio noise reduction function</li><li>Optimized auto-tracking function</li><li>Fixed the problem that the brightness cannot recover after you change it from Manual back to Auto mode in the Brightness&amp;Shadows settings.</li><li>Fixed other known bugs</li></ol> | 
