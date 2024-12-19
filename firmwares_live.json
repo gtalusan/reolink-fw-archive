@@ -5366,5 +5366,24 @@
       "2. Overall camera performance optimized."
     ],
     "display_time": "2024-12-16 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.4417_2412122130",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/12/190712181734592338.8949.zip",
+    "filename": "E1_Pro_241212",
+    "updated_at": "2024-12-19 15:13:07+08:00",
+    "note": "",
+    "firmware_id": 700,
+    "hw_ver_id": 358,
+    "model_id": 81,
+    "model": "E1 Pro",
+    "hw_ver": "IPC_NT1NA45MP",
+    "changelog": [
+      "1. Crying Sound Detection feature added.",
+      "2. Privacy Mode added.",
+      "3. Noise reduction performance improved.",
+      "4. Smart Playback performance enhanced."
+    ],
+    "display_time": "2024-12-19 00:00:00+08:00"
   }
 ]
