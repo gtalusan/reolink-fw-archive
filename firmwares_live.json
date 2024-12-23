@@ -5385,5 +5385,24 @@
       "4. Smart Playback performance enhanced."
     ],
     "display_time": "2024-12-19 00:00:00+08:00"
+  },
+  {
+    "version": "v3.1.0.4162_2410252116",
+    "url": "https://home-cdn.reolink.us/wp-content/uploads/2024/12/230428541734928134.2539.zip",
+    "filename": "RLC_840A_4162_2410252116",
+    "updated_at": "2024-12-23 12:29:03+08:00",
+    "note": "",
+    "firmware_id": 701,
+    "hw_ver_id": 341,
+    "model_id": 204,
+    "model": "RLC-840A",
+    "hw_ver": "IPC_NT2NA48MP",
+    "changelog": [
+      "1. Two-Way Talk performance enhanced.",
+      "2. Noise reduction for audio and video improved.",
+      "3. Smart Event Detection feature added.",
+      "4. Other known bugs resolved."
+    ],
+    "display_time": "2024-12-23 00:00:00+08:00"
   }
 ]

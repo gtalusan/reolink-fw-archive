@@ -2010,10 +2010,11 @@ Version | Date | Changes | Notes
 
   ### IPC_NT2NA48MP
 
-Firmwares for this hardware version: 1
+Firmwares for this hardware version: 2
 
 Version | Date | Changes | Notes
 --- | --- | --- | ---
+[v3.1.0.4162_2410252116](https://home-cdn.reolink.us/wp-content/uploads/2024/12/230428541734928134.2539.zip) | 2024‑12‑23 | <ol><li>Two-Way Talk performance enhanced.</li><li>Noise reduction for audio and video improved.</li><li>Smart Event Detection feature added.</li><li>Other known bugs resolved.</li></ol> | 
 [v3.1.0.3953_2409059414](https://home-cdn.reolink.us/wp-content/uploads/2024/09/140704371726297477.5627.zip) | 2024‑09‑14 | <ol><li>Add webhook.</li><li>Optimize HTTPS.</li><li>Improve ONVIF functionality.</li><li>Enhance RTSP connection.</li><li>Fix bug in corridor mode.</li><li>Improve anti-flicker.</li></ol> | 
 
 </details>
